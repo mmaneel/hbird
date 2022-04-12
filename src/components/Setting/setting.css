@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .arw{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  .arrow{
+     
+      width: 50px;
+  }
+.seting{
+border: 4px solid black;
+margin: 25px 0px;
+border-radius: 10px;
+width: 1200PX;
+display: flex;
+flex-direction: row;
+
+
+
+}
+.formGroup1{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15% 30px 5%;
+    width: 200px;
+}
+.formItem{
+    text-align: start;
+}
+.edit{
+    display: grid;
+    grid-template-rows: repeat(4,40px);
+    margin-top: 20px;
+    position: relative;
+
+}
+.edit >a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 20PX;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.formGroup2{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0px 30px 0px ;
+}
+
+
+.icon1{
+    border: none;
+     overflow: hidden;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.icon1{
+    position: absolute;
+    top: 19%;
+    right: 0;
+    background-color: #F0F0F0;
+    height: 40px;
+    width: 40px;
+   cursor: pointer;
+   border: none;
+    
+    
+  }
+  .icon1 >img{
+    width: 20px;
+    height: 20px;
+     
+    
+  }
+.name{
+    padding-left: 20px;
+}
+.inpt{
+    position: relative;
+   
+}
+.inpt>input{
+    border-radius: 5px;
+    margin: 12px auto;
+    width: 580px;
+    height: 40px;
+    background-color: #C4C4C4;
+    color: #818181;
+    border: none;
+    font-size: 15px;
+
+    position: relative;
+    overflow: hidden;
+   
+    
+}
+
+.btn{
+    position: absolute;
+    top: 57%;
+    right: 28%;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+}
+  .btn >img{
+    width: 30px;
+    height: 30px;
+    
+  }
+.profil-pic{
+    width: 100px;
+}
+#bttn{
+    top: 0;
+    left: 17.5%;
+    position: absolute;
+    width: 130px;
+    height: 27px;
+    background: #F5A302;
+    border-radius: 30px;
+    transition: .5s;
+  }
+.password{
+  
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  .formItem-passw{
+    text-align: start;
+    
+  }
+  
+   
+.inpt-passw>input{
+    border-radius: 5px;
+    margin: 12px auto;
+    width: 380px;
+    height: 40px;
+    background-color: #C4C4C4;
+
+    border: none;
+    font-size: 15px;
+    overflow: hidden;
+   
+    
+}
+ .record{
+
+    display: inline-block;
+    margin-left: auto   ;
+   cursor: pointer;
+   
+    
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    
+    
+ }
+ .password>img{
+     position: absolute;
+     right: 0%;
+     top: -7%;
+     width: 45PX;
+     height: 50px;
+     
+
+ }

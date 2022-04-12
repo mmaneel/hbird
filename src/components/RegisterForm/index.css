@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  form{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: black solid 1px;
+    
+  }
+  
+
+  .formGroup>h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  
+  .loginFields{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    justify-content: first baseline;
+  
+  }
+  .loginFields >img{
+    width: 25px;
+    height: 25px;
+    
+    
+  }
+  .back{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+   
+  }
+  .back>img{
+    width: 35px;
+  }
+  .button-box{
+    display:flex;
+    flex-direction: row;
+  position: relative;
+    
+  }
+  .btn{
+    justify-content: space-between;
+  
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: relative;
+  }
+  #bttn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 90px;
+    height: 100%;
+    background: #F5A302;
+    border-radius: 30px;
+    transition: .5s;
+  }
+  
+    
+  
+  .formGroup{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    }
+  
+  .formItem >input{
+    border-radius: 10px;
+    margin: 12px auto;
+    width: 340px;
+    height: 40px;
+    background-color: #F0F0F0;
+    color: #818181;
+    border: none;
+    font-size: 15px;
+    outline:none;
+  }
+  
+  .icon1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 22px 0 0 10px;
+  }
+  .icon2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 22px 0 0 10px;
+  }
+  .name{
+    padding-left: 35px;
+  }
+  
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    
+  }
+  .loginBtn{
+    cursor: pointer;
+    width: 370PX;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color:#F5A302;
+    
+    
+  }
+  .loginBtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  
+    
+    
+  
+  .connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+  }
+  .connect>p{
+    font-size: 14px;
+    color: #818181;
+  }
+  .sclm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px auto;
+    
+  }
+  .bac{
+    margin: auto 10px;
+    justify-content: space-between;
+    
+  
+    cursor: pointer;
+  }
+  .bac>img{
+    
+    width: 35px;
+  }

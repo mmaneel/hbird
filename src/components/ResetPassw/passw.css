@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  form{
+    width: 460px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    border: black solid 1px;
+    
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .p{
+    width: 70%;
+    margin: 20px 0px 0px 0px ;
+  }
+  .p>p{
+    text-align: center;
+    font-size: 14px;
+    color: #818181;
+  }
+  .h{ 
+    width: 271px;
+  }
+
+  .h>h1{
+   font-size: 20px;
+   text-align: center;
+
+  }
+  .logo>p{
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    color: #818181;
+    text-align: center;
+
+  }
+  
+  
+    
+  .loginFields{
+     
+      margin-left: 396px;
+  }
+  .back{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .back>img{
+    width: 35px;
+    
+  }
+  .button-box{
+    display:flex;
+    flex-direction: row;
+    margin: 14px 95px;
+    position: relative;
+    
+  }
+  .formGroup{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    }
+  
+  .formItem >input{
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 340px;
+    height: 40px;
+    background-color: #F0F0F0;
+    color: #818181;
+    border: none;
+    font-size: 15px;
+    outline:none;
+  }
+  
+  
+  .name{
+    padding-left: 35px;
+  }
+  .forgotPass{
+    display: flex;
+    justify-content: center;
+      color: #818181;
+      text-decoration: none;
+   
+    cursor: pointer;
+    font-size: 14px;
+   
+  }
+  
+  .footer{
+    display: flex;
+     margin: 30px auto;
+    
+  }
+  .loginBtn{
+    cursor: pointer;
+    width: 150PX;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color:#F5A302;
+    
+    
+  }
+  .loginBtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
